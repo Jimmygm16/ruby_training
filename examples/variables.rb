@@ -1,3 +1,4 @@
+#Basic variables
 character_name = "Jeremy"
 character_age = "34"
 

@@ -1,16 +1,3 @@
-#without initialize method
-class Car
-  attr_accessor :owner, :brand, :model
-
-  def initialize(owner, brand, model)
-    @owner = owner
-    @brand = brand
-    @model = model
-  end
-end
-
-#initialize method
-
 class Book
   attr_accessor :title, :author, :pages
 
@@ -20,12 +7,11 @@ class Book
     @pages = pages
   end
 
-  def isAlongBook
+  #check if a book is long or not
+  def longBook?
     if @pages >= 100
       return true
     end
     return false
   end
 end
-
-

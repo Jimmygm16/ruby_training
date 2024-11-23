@@ -11,4 +11,3 @@ File.open("players.txt", "a") do |file|
 end
 
 #r+ to write and read files in the same file.open instance.
-

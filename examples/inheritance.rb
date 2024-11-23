@@ -1,8 +1,10 @@
-require_relative 'classes_objects'
+#inheritance in ruby
+require_relative 'car'
 
 class Bus < Car
   attr_accessor :worked_years
 
+  #initialize methods
   def initialize(owner, brand, model, worked_years)
     super(owner, brand, model)
     @worked_years = worked_years    
