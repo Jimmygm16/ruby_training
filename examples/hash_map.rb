@@ -1,3 +1,4 @@
+#hash maps
 capitals = {
   :France => "Paris",
   2 => "Berlín",

@@ -1,3 +1,4 @@
+#Division between two numbers
 def divide(dividend, divider)
   begin
     num = dividend / divider 

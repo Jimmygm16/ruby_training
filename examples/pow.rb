@@ -7,3 +7,9 @@ def pow(base, pow_num)
   result
 end
 
+#another alternative for pow
+def another_pow(base, pow_num)
+  puts base**pow_num
+end
+
+another_pow(2, 4)

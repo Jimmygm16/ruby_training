@@ -1,3 +1,4 @@
+#returns true or false if a number is in a list.
 def find_number(list, num)
   index = 0
   while index < list.length
@@ -8,6 +9,5 @@ def find_number(list, num)
   end
   return false
 end
-    
 
 puts find_number([2, 4, 5, 2, 6], 16)
